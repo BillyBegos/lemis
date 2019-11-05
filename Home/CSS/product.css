@@ -141,7 +141,9 @@ width: 100%;
  .masthead {display: none;}
 }
 
-
+.bg-match{
+  background-color:00081f;
+}
 .text-colors{
 color: black;
 }
@@ -469,6 +471,10 @@ background-color: #6e6e6e;
 color: white;
 }
 
+#theNav{
+background-color: #00081f;
+
+}
 .padding-top{
 padding-top: 75px;
 }
