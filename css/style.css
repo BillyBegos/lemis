@@ -697,7 +697,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-size: 24px;
 }
-
+#services .icon {
+  border: 6px solid #06244e;
+}
 #contact-us{
   padding-top:10%;
   position:relative;
