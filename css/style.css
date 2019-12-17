@@ -17,6 +17,7 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  color: #bfbfbf;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +31,7 @@ font-style: normal;
 
   margin: 0 0 20px 0;
   padding: 0;
+  color: #e5e5e5;
 }
 
 /* Prelaoder */
@@ -538,7 +540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #eaeaea;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -548,7 +550,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: #e5e5e5;
 }
 
 /* About Us Section
@@ -634,7 +636,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: #f7f7f7;
+  background: #00102a;
   padding: 80px 0 60px 0;
 }
 
@@ -654,7 +656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #fff;
+  background: #041936;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -663,10 +665,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #041936;
   height: 200px;
   position: relative;
-  background: #fafafa;
+  background: #06244e;
 }
 
 #services .icon {
@@ -696,29 +698,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
 }
 
+#contact-us{
+  padding-top:10%;
+  position:relative;
+}
 #services .box:hover .icon-1 {
   background: #06a199;
-  border: 2px solid #fff;
+  border: 2px solid #06a199;
 }
 #services .box:hover .icon-2 {
   background: #006bb3;
-  border: 2px solid #fff;
+  border: 2px solid #006bb3;
 }
 #services .box:hover .icon-3 {
   background: #7d388b;
-  border: 2px solid #fff;
+  border: 2px solid #7d388b;
 }
 #services .box:hover .icon-4 {
   background: #e76409;
-  border: 2px solid #fff;
+  border: 2px solid #e76409;
 }
 #services .box:hover .icon-5 {
   background: #14acde;
-  border: 2px solid #fff;
+  border: 2px solid #14acde;
 }
 #services .box:hover .icon-6 {
   background: #32a42b;
-  border: 2px solid #fff;
+  border: 2px solid #32a42b;
 }
 
 #services .box:hover .icon i {
@@ -737,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #111;
+  color: #e5e5e5  ;
 }
 
 #services .description {
@@ -936,10 +942,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #00102a;
   padding: 80px 0 40px 0;
 }
 
+#contact1 {
+  background: #041936;
+}
 #contact #google-map {
   height: 300px;
   margin-bottom: 20px;
@@ -1043,7 +1052,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
+  background: #00102a;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
