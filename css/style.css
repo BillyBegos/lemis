@@ -166,6 +166,7 @@ font-style: normal;
   #hero{
     background: url("../img/banner2-mobile.png") top center;
     background-size:cover;
+    background-attachment:relative;
   }
 }
 
