@@ -126,7 +126,7 @@ font-style: normal;
 }
 
 #header.header-fixed {
-  background: rgba(178, 36, 54, 0.9);
+  background: rgba(136, 27, 41, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -664,7 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #b22436;
+  background: #881b29;
   background-size: cover;
   padding: 80px 0 0px 0;
 }
@@ -676,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*border: 1px solid #fff;*/
   height: 200px;
   position: relative;
-  background: #881b29;
+  background: #9d1f2f;
 }
 
 #services .icon {
@@ -706,7 +706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
 }
 #services .icon {
-  border: 6px solid #881b29;
+  border: 6px solid #9d1f2f;
 }
 #contact-us{
   padding-top:5%;
@@ -1062,7 +1062,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #b22436;
+  background: #881b29;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
