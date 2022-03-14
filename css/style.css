@@ -141,7 +141,9 @@ font-style: normal;
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
+  padding-top:68.23%;
+  
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),
     url('../img/banner.jpg');
     background-attachment: relative;
@@ -154,18 +156,19 @@ font-style: normal;
 }
 @media(min-width: 600px){
   #hero{
+    
     letter-spacing:.5em;
   }
 }
 @media (min-width: 1421px) {
   #hero {
     /*background-image: linear-gradient(to bottom, rgba(255,0,0,.4), rgba(0,0,255,1), url("../img/banner.jpg"));*/
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
     url('../img/banner.jpg');
     background-attachment: relative;
     background-repeat:no-repeat;
     background-size: cover;
-    position: relative;
+    position: center;
   }
 }
 /*
@@ -713,12 +716,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position:relative;
 }
 #services .box:hover .icon-1 {
-  background: #b9327f;
-  border: 2px solid #b9327f;
+  background: #efe03b;
+  border: 2px solid #efe03b;
 }
 #services .box:hover .icon-2 {
-  background: #b9327f;
-  border: 2px solid #b9327f;
+  background: #efe03b;
+  border: 2px solid #efe03b;
 }
 #services .box:hover .icon-3 {
   background: #7d388b;
@@ -733,8 +736,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #14acde;
 }
 #services .box:hover .icon-6 {
-  background: #b9327f;
-  border: 2px solid #b9327f;
+  background: #efe03b;
+  border: 2px solid #efe03b;
 }
 
 #services .box:hover .icon i {
