@@ -730,8 +730,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #efe03b;
 }
 #services .box:hover .icon-3 {
-  background: #7d388b;
-  border: 2px solid #7d388b;
+  background: #efe03b;
+  border: 2px solid #efe03b;
 }
 #services .box:hover .icon-4 {
   background: #e76409;
