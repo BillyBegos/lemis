@@ -96,6 +96,8 @@ font-style: normal;
 
 }
 
+
+
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
@@ -116,7 +118,7 @@ font-style: normal;
   margin-bottom: 27px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #header #logo h1 {
     font-size: 26px;
   }
@@ -272,12 +274,15 @@ font-style: normal;
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
+  .favi{
+    visibility: hidden;
+    }
 }
 
 #hero .btn-get-started {
