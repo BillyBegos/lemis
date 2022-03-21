@@ -16,7 +16,7 @@ a:hover, a:active, a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
   color: #bfbfbf;
 }
 
@@ -135,6 +135,10 @@ font-style: normal;
 #tickets{
   border:2px;
   border-color:red;
+}
+.large-font{
+  font-size: 30px;
+  font-weight: heavy;
 }
 /*--------------------------------------------------------------
 # Hero Section
@@ -556,12 +560,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
-.section-header .section-title {
+.section-header .section-title  {
   font-size: 32px;
   color: #eaeaea;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 5px;
+}
+h2{
+  font-size: 24px;
+  color: #eaeaea;
+  text-transform: uppercase;
+  text-align: center;
   margin-bottom: 5px;
 }
 
@@ -769,6 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .description {
   font-size: 14px;
   line-height: 24px;
+  color: rgb(206, 205, 205)
 }
 
 /* Call To Action Section
