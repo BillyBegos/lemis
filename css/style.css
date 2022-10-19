@@ -128,7 +128,7 @@ font-style: normal;
 }
 
 #header.header-fixed {
-  background: rgba(175, 57, 133, 0.9);
+  background: rgba(17, 78, 92, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -152,7 +152,7 @@ font-style: normal;
   
   /*background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),
     url('../img/banner1.jpg');*/
-    background-image: url('../img/banner1.jpg');
+    background-image: url('../img/banner.jpg');
     background-attachment: relative;
     background-repeat:no-repeat;
     background-size: cover;
@@ -690,7 +690,7 @@ h2{
 /* Services Section
 --------------------------------*/
 #services {
-  background: #892c68;
+  background: #085461;
   background-size: cover;
   padding: 80px 0 0px 0;
 }
@@ -702,7 +702,7 @@ h2{
   /*border: 1px solid #fff;*/
   height: 200px;
   position: relative;
-  background: #9c3376;
+  background: #0c4e5c;
 }
 
 #services .icon {
@@ -732,23 +732,23 @@ h2{
   font-size: 24px;
 }
 #services .icon {
-  border: 6px solid #9c3376;
+  border: 6px solid #0c4e5c;
 }
 #contact-us{
   padding-top:5%;
   position:relative;
 }
 #services .box:hover .icon-1 {
-  background: #efe03b;
-  border: 2px solid #efe03b;
+  background: #e2cc17;
+  border: 2px solid #e2cc17;
 }
 #services .box:hover .icon-2 {
-  background: #efe03b;
-  border: 2px solid #efe03b;
+  background: #e2cc17;
+  border: 2px solid #e2cc17;
 }
 #services .box:hover .icon-3 {
-  background: #efe03b;
-  border: 2px solid #efe03b;
+  background: #e2cc17;
+  border: 2px solid #e2cc17;
 }
 #services .box:hover .icon-4 {
   background: #e76409;
