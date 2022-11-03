@@ -128,7 +128,7 @@ font-style: normal;
 }
 
 #header.header-fixed {
-  background: rgba(17, 78, 92, 0.9);
+  background: rgba(17, 78, 92 , 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
