@@ -1089,7 +1089,7 @@ h2{
 }
 
 :root{
-  --color-primary: #0a0a0a;
-  --color-secondary: #1e1e1e;
+  --color-primary: #000000;
+  --color-secondary: #191919;
   --accent-color: #dc1010;
 }
